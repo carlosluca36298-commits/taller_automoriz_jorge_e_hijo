@@ -97,10 +97,56 @@ function Hero() {
           lineHeight: 1.7,
           color: '#cbd5e1',
           maxWidth: '650px',
-          margin: '0 auto 45px auto'
+          margin: '0 auto 25px auto'
         }}>
           Más de 30 años de experiencia y seriedad familiar cuidando tu vehículo. Especialistas en motores, alternadores, motores de arranque, frenos y tren delantero.
         </p>
+
+        {/* Promo Distribución */}
+        <div style={{
+          display: 'inline-flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          flexWrap: 'wrap',
+          gap: '8px 12px',
+          backgroundColor: 'rgba(249, 115, 22, 0.12)',
+          border: '1px solid rgba(249, 115, 22, 0.5)',
+          borderRadius: '6px',
+          padding: '12px 24px',
+          margin: '0 auto 45px auto',
+          maxWidth: '750px',
+          boxShadow: '0 4px 20px rgba(249, 115, 22, 0.15)'
+        }}>
+          <span style={{
+            fontFamily: 'var(--font-display)',
+            fontSize: 'clamp(17px, 2.4vw, 21px)',
+            fontWeight: 800,
+            textTransform: 'uppercase',
+            letterSpacing: '1px',
+            color: '#ffffff'
+          }}>
+            Cambio kit distribución para todos los autos a
+          </span>
+          <span style={{
+            fontFamily: 'var(--font-display)',
+            fontSize: 'clamp(22px, 3vw, 28px)',
+            fontWeight: 900,
+            color: '#f97316',
+            letterSpacing: '1px'
+          }}>
+            $60.000
+          </span>
+          <span style={{
+            fontFamily: 'var(--font-tech)',
+            fontSize: '17px',
+            fontWeight: 700,
+            color: '#cbd5e1',
+            textTransform: 'uppercase',
+            letterSpacing: '1px'
+          }}>
+            + repuestos
+          </span>
+        </div>
 
         {/* Action Buttons */}
         <div style={{

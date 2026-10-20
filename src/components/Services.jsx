@@ -1,5 +1,5 @@
 import { FaWrench, FaBolt, FaWhatsapp, FaCogs } from 'react-icons/fa';
-import alternadorImg from '../assets/alternador.jpg';
+import alternadorImg from '../assets/electricidad-jorge.jpg';
 import motorImg from '../assets/motor-hero.jpg';
 import herramientasBg from '../assets/mecanico-herramientas.jpg';
 
@@ -95,7 +95,7 @@ function Services() {
               height: '170px',
               backgroundImage: `linear-gradient(180deg, rgba(2, 132, 199, 0.25) 0%, rgba(13, 16, 23, 0.95) 100%), url(${alternadorImg})`,
               backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundPosition: 'center 15%',
               display: 'flex',
               alignItems: 'flex-end',
               padding: '16px 24px'
